@@ -1,0 +1,21 @@
+.ngx-fg-svg {
+  pointer-events: none;
+}
+
+ngx-flamegraph-graph {
+  position: relative;
+  display: block;
+}
+
+.ngx-fg-chart-wrapper {
+  position: relative;
+}
+
+.ngx-fg-grayscale {
+  filter: grayscale(1);
+  opacity: 0.2;
+}
+
+.ngx-fg-svg-g {
+  transition: width 0.2s ease-out, transform 0.2s ease-out;
+}
